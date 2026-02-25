@@ -357,8 +357,8 @@ class S4M(nn.Module):
         out_channels=128,
         in_channels=512,
         num_blocks=16,
-        upsampling_depth=4,
-        enc_kernel_size=21,
+        upsampling_depth=5,
+        enc_kernel_size=4, # for tiny, 2 for base
         num_sources=2,
         sample_rate=16000,
     ):
